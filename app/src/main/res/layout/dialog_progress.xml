@@ -1,0 +1,38 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="@color/white">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/dialogProgressCPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:indeterminate="true"
+            android:theme="@style/AppTheme" />
+
+        <TextView
+            android:id="@+id/tv_dialogName"
+            android:layout_width="wrap_content"
+            android:maxWidth="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/robotolight"
+            android:layout_toRightOf="@id/dialogProgressCPI"
+            android:textAllCaps="true"
+            tool:text = "Please Wait"
+            android:textColor="@color/colorFont"
+            android:textSize="24sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

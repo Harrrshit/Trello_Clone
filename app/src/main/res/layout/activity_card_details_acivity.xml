@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.CardDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_card_details_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme = "@style/customToolBarStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grad_background"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:hintEnabled="false"
+                    android:paddingVertical="6dp"
+                    android:paddingHorizontal="12dp"
+                    android:hint="@string/hint_card_name">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_name_card_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:textColorHint="@color/colorFont"
+                        android:hint="@string/hint_card_name"
+                        android:textColor="@color/colorFontDark"
+                        android:textCursorDrawable="@drawable/cursor_style"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/robotomedium"
+                        android:inputType="textCapSentences" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="5dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_color"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_select_label_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:text="@string/select_color"
+                    android:textColor="@color/colorFont" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/members"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_select_members"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:text="@string/select_members"
+                    android:textColor="@color/colorFont"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_selected_members_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/due_date"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_select_due_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:text="@string/select_due_date"
+                    android:textColor="@color/colorFont" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_update_card_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shape_button_rounded"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="@string/update"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

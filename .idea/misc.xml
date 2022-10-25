@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3312820512820513" />
+        <entry key="../../Library/Android/sdk/platforms/android-32/data/res/layout/auto_complete_list.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/drawable-v24/grad_background.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/card_corner_radius.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/cursor_style.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24_other.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24-2.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24_2.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/nav_header_main_background.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/shape_button_round_grad.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/shape_button_round_stroke.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/shape_button_rounded.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/shape_dialog_rounded.xml" value="0.155" />
+        <entry key="app/src/main/res/layout-v23/activity_card_details_acivity.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout-v26/activity_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_card_details_acivity.xml" value="0.201312255859375" />
+        <entry key="app/src/main/res/layout/activity_create_board.xml" value="0.2231807951987997" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_members.xml" value="0.18011938624751045" />
+        <entry key="app/src/main/res/layout/activity_my_profile.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.22181319340539973" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_task_list.xml" value="0.22572078907435508" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dialog_add_member.xml" value="0.31102908746606484" />
+        <entry key="app/src/main/res/layout/dialog_list.xml" value="0.22572078907435508" />
+        <entry key="app/src/main/res/layout/dialog_progress.xml" value="0.2231807951987997" />
+        <entry key="app/src/main/res/layout/dialog_search_member.xml" value="0.11949924127465858" />
+        <entry key="app/src/main/res/layout/drawer.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/dummy.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/item_board.xml" value="0.22572078907435508" />
+        <entry key="app/src/main/res/layout/item_card.xml" value="0.21509863429438544" />
+        <entry key="app/src/main/res/layout/item_card_selected_member.xml" value="0.22572078907435508" />
+        <entry key="app/src/main/res/layout/item_label_color.xml" value="0.22572078907435508" />
+        <entry key="app/src/main/res/layout/item_members.xml" value="0.22572078907435508" />
+        <entry key="app/src/main/res/layout/item_task.xml" value="0.22572078907435508" />
+        <entry key="app/src/main/res/layout/main_content.xml" value="0.267578125" />
+        <entry key="app/src/main/res/layout/menu_members.xml" value="0.21509863429438544" />
+        <entry key="app/src/main/res/layout/navigation_header.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.31348070417131696" />
+        <entry key="app/src/main/res/menu/menu_add_member.xml" value="0.11949924127465858" />
+        <entry key="app/src/main/res/menu/menu_delete_card.xml" value="0.21509863429438544" />
+        <entry key="app/src/main/res/menu/menu_members.xml" value="0.21509863429438544" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3098958333333333" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

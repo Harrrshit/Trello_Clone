@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trelloclone_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="@drawable/ic_stat_ic_notification" />
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_color"
+        android:resource="@color/colorAccent" />
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_channel_id"
+        android:value="@string/default_notification_channel_id" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrelloClone1">
+        <activity
+            android:name=".activities.CardDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.MembersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.TaskListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.CreateBoardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.MyProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.BaseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.SignInActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/customNoActionBarTheme" />
+        <activity
+            android:name=".activities.IntroActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service
+            android:name=".fcm.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

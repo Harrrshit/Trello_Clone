@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">trello</string>
+    <string name="intro_title">Trello</string>
+    <string name="intro_subTitle">Lets Get Started</string>
+    <string name="intro_desc">Collaborate and plan together across multiple devices</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="signupDesc">Enter your name email and password, And sit back until we setup account</string>
+    <string name="signinDesc">Enter your email and password, and sit back while we complete these process</string>
+    <string name="user_name">Name</string>
+    <string name="user_email">Email</string>
+    <string name="user_password">Password</string>
+    <string name="user_number">Number</string>
+    <string name="progressBar_text">Please wait</string>
+
+    <string name="menu_user">Profile</string>
+    <string name="menu_logout">Logout</string>
+    <string name="update">Update</string>
+    <string name="create">create</string>
+    <string name="board_name">Board Name</string>
+    <string name="action_add_list">Add List</string>
+    <string name="image_contentDescription">Image</string>
+    <string name="hint_list_name">list name</string>
+    <string name="hint_card_name">card name</string>
+    <string name="action_add_card">Add card</string>
+    <string name="hint_list_name_first">List Name</string>
+    <string name="add">Add Member</string>
+    <string name="search_member">Search Member</string>
+    <string name="add2">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="label_color">label color</string>
+    <string name="select_color">select color</string>
+    <string name="members">members</string>
+    <string name="select_members">select members</string>
+    <string name="due_date">due date</string>
+    <string name="select_due_date">select due date</string>
+    <string name="delete_card">Delete card</string>
+    <string name="alert">alert</string>
+    <string name="confirmation_message">Do you really want to continue \'%1$s\'?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="default_notification_channel_id">trello_notification_channel_id</string>
+</resources>

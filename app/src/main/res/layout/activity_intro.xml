@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background="@color/white"
+    android:gravity = "center"
+    tools:context=".activities.IntroActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/intro_title"
+        android:textColor="@color/colorBlue"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/stylefont" />
+    <ImageView
+        android:layout_width = "match_parent"
+        android:layout_height = "200dp"
+        android:background = "@drawable/signin_image"/>
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/intro_subTitle"
+        android:textColor = "@color/colorFontDark"
+        android:gravity = "center"
+        android:textSize = "32sp"
+        android:textStyle = "bold"
+        android:layout_marginTop = "16dp"
+        android:layout_marginBottom = "16dp"
+        app:fontFamily="@font/robotobold"/>
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/intro_desc"
+        android:textColor = "@color/colorFont"
+        android:gravity = "center"
+        android:textSize = "16sp"
+        android:textStyle = "bold"
+        android:layout_marginBottom = "16dp"
+        app:fontFamily="@font/robotolight"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn_signIn_intro"
+        android:layout_width = "300dp"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:background = "@drawable/shape_button_round_grad"
+        android:text = "@string/signin"
+        android:letterSpacing = ".1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn_signUp_intro"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shape_button_round_stroke"
+        android:text="@string/signup"
+        android:textColor = "@color/black"
+        android:letterSpacing = ".1"/>
+</LinearLayout>
